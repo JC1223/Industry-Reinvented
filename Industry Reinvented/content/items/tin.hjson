@@ -1,0 +1,6 @@
+type: resource
+name: Tin
+description:A soft metal that can't be used for much by itself
+hardness: 1
+cost: 1
+color: d0ae61
