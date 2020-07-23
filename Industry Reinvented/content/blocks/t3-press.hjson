@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Titanium Press
+description: Makes a large flat sheet of titanium
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 60
+consumes:{
+   power: 0.7
+   items: {
+      items: [
+         titanium/4
+      ]
+   }
+}
+requirements: [
+   bronze/80
+   lead/120
+   graphite/60
+   copper-plating/60
+]
+category: crafting
+research: t2-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: titanium-plating/1
+
+

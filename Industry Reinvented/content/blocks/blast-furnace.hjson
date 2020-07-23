@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Blast Furnace
+description: Mixes coal and iron to make steel
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+   power: 1
+   items: {
+      items: [
+         iron/2
+         coal/1
+      ]
+   }
+}
+requirements: [
+   iron/20
+   bronze/50
+   lead/50
+]
+category: crafting
+resarch: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: steel/2

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Steel Press
+description: Makes a large flat sheet of steel
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 60
+consumes:{
+   power: 0.7
+   items: {
+      items: [
+         steel/4
+      ]
+   }
+}
+requirements: [
+   bronze/200
+   steel/120
+   graphite/120
+   intricate-gearbox/100
+]
+category: crafting
+research: t3-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: steel-plating/1
+
+

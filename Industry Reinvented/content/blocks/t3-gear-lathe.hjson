@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Steel Gear Lathe
+description: Turns steel into gears
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 30
+consumes:{
+   power: 0.4
+   items: {
+      items: [
+         steel/2
+      ]
+   }
+}
+requirements: [
+   iron/120
+   bronze/120
+   steel/50
+   intricate-gearbox/10
+]
+category: crafting
+research: t2-gear-lathe
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: steel-gear/1
+
+

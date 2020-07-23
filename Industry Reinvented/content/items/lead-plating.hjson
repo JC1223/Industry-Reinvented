@@ -1,0 +1,5 @@
+type: material
+name: Lead Plating
+description: A large thin plate of lead
+cost: 1
+color: 6f687e

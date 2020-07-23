@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Complex Gearbox Assembler
+description: Constructs complex gearboxes
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 90
+consumes:{
+   power: 1.2
+   items: {
+      items: [
+         intricate-gearbox/1
+         steel-gear/3
+         steel-plating/1
+      ]
+   }
+}
+requirements: [
+   steel/240
+   steel-plating/200
+   silicon/200
+   computing-chip/100
+]
+category: crafting
+research: t2-gearbox-assembler
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: complex-gearbox/1
+
+
