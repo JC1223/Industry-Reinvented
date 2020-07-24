@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Steel Gear Lathe
-description: Turns steel into gears
+description: Turns steel into gears.
 size: 1
 hasPower: true
 hasItems: true

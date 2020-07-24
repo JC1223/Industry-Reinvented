@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Copper Press
-description: Makes a large flat sheet of copper
+description: Makes a large flat sheet of copper.
 size: 1
 hasPower: true
 hasItems: true

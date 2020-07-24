@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Bronze Smelter
-description: Mixes tin and copper to make Bronze
+description: Mixes tin and copper to make Bronze.
 size: 2
 hasPower: true
 hasItems: true

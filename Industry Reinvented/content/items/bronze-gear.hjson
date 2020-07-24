@@ -1,5 +1,5 @@
 type: resource
 name: Bronze Gear
-description: A gear made of bronze
+description: A gear made of bronze.
 cost: 1
 color: 996742

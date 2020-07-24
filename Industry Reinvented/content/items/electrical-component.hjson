@@ -1,5 +1,5 @@
 type: material
 name: Electrical Component
-description: A small component for higher-level machines
+description: A small component for higher-level machines.
 cost: 1
 color: eac2a9

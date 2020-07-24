@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Blast Furnace
-description: Mixes coal and iron to make steel
+description: Mixes coal and iron to make steel.
 size: 2
 hasPower: true
 hasItems: true

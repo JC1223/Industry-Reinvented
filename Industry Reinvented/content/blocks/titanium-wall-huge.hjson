@@ -1,0 +1,11 @@
+type: Wall
+name: Huge Titanium Wall
+description: A moderately strong defensive block. Provides moderate protection from enemies. Spans even more tiles.
+size: 3
+health: 4546
+requirements: [
+   titanium/30
+   titanium-plating/8
+]
+category: defense
+research: titanium-wall-large

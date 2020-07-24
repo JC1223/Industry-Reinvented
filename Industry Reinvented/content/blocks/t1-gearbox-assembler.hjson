@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Simple Gearbox Assembler
-description: Constructs simple gearboxes
+description: Constructs simple gearboxes.
 size: 2
 hasPower: true
 hasItems: true

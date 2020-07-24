@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Surge Alloy Press
-description: Makes a large flat sheet of surge alloy
+description: Makes a large flat sheet of surge alloy.
 size: 1
 hasPower: true
 hasItems: true

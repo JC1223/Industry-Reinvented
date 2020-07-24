@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Bronze Gear Lathe
-description: Turns bronze into gears
+description: Turns bronze into gears.
 size: 1
 hasPower: true
 hasItems: true

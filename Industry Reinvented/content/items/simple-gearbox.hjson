@@ -1,5 +1,5 @@
 type: material
 name: Simple Gearbox
-description: A simple set of gears in a housing
+description: A simple set of gears in a housing.
 cost: 1
 color: ffaa6a

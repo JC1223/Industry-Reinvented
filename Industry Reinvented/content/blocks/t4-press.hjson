@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Steel Press
-description: Makes a large flat sheet of steel
+description: Makes a large flat sheet of steel.
 size: 1
 hasPower: true
 hasItems: true

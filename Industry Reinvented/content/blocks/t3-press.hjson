@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Titanium Press
-description: Makes a large flat sheet of titanium
+description: Makes a large flat sheet of titanium.
 size: 1
 hasPower: true
 hasItems: true

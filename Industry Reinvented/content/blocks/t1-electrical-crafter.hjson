@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Electrical Component Crafter
-description: Manufactures electrical components
+description: Manufactures electrical components.
 size: 2
 hasPower: true
 hasItems: true

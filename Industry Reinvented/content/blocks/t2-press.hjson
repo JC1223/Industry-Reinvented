@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Lead Press
-description: Makes a large flat sheet of lead
+description: Makes a large flat sheet of lead.
 size: 1
 hasPower: true
 hasItems: true

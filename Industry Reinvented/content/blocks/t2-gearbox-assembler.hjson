@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Intricate Gearbox Assembler
-description: Constructs intricate gearboxes
+description: Constructs intricate gearboxes.
 size: 2
 hasPower: true
 hasItems: true

@@ -1,0 +1,5 @@
+type: material
+name: Lead Tubing
+description: A tube made of lead. What else would it be?
+cost: 1
+color: 7f788e

@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Computing Chip Crafter
-description: Manufactures computing chips
+description: Manufactures computing chips.
 size: 2
 hasPower: true
 hasItems: true
