@@ -1,0 +1,13 @@
+type: Wall
+name: Huge Plastanium Wall
+description: A special type of wall that absorbs electric arcs and blocks automatic power node connections. Spans even more tiles.
+size: 3
+health: 9424
+insulated: true
+requirements: [
+   metaglass/15
+   plastanium/30
+   plastanium-plating/8
+]
+category: defense
+research: plastanium-wall-large

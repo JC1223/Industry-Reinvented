@@ -1,0 +1,5 @@
+type: resource
+name: Iron Gear
+description: A gear made of iron.
+cost: 1
+color: 685746

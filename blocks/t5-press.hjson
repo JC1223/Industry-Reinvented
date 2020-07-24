@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Plastanium Press
+description: Makes a large flat sheet of plastanium.
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 60
+consumes:{
+   power: 0.7
+   items: {
+      items: [
+          plastanium/4
+      ]
+   }
+}
+requirements: [
+   steel/260
+   plastanium/260
+   graphite/200
+   steel-plating/100
+]
+category: crafting
+research: t4-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: plastanium-plating/1
+
+

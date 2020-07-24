@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Bronze Smelter
+description: Mixes tin and copper to make Bronze.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+   power: 0.5
+   items: {
+      items: [
+         copper/3
+         tin/1
+      ]
+   }
+}
+requirements: [
+   copper/50
+   lead/40
+]
+category: crafting
+resarch: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: bronze/4

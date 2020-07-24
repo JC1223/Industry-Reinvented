@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Computing Chip Crafter
+description: Manufactures computing chips.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 120
+consumes:{
+   power: 2.5
+   items: {
+      items: [
+         electrical-component/2
+         copper/2
+         silicon/2
+      ]
+   }
+}
+requirements: [
+   bronze/300
+   titanium/300
+   silicon/160
+   intricate-gearbox/80
+]
+category: crafting
+research: t1-electrical-crafter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: computing-chip/1
+
+

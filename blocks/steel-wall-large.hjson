@@ -1,0 +1,11 @@
+type: Wall
+name: Large Steel Wall
+description: A sturdy but expensive wall. Spans multiple tiles.
+size: 2
+health: 2696
+requirements: [
+   steel/12
+   steel-plating/3
+]
+category: defense
+research: steel-wall

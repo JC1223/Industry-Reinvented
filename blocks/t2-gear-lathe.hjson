@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Iron Gear Lathe
+description: Turns iron into gears.
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 30
+consumes:{
+   power: 0.4
+   items: {
+      items: [
+         iron/2
+      ]
+   }
+}
+requirements: [
+   lead/80
+   iron/80
+   bronze/50
+   simple-gearbox/10
+]
+category: crafting
+research: t1-gear-lathe
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: iron-gear/1
+
+

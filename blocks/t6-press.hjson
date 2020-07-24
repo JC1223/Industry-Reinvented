@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Surge Alloy Press
+description: Makes a large flat sheet of surge alloy.
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 60
+consumes:{
+   power: 0.7
+   items: {
+      items: [
+         surge-alloy/4
+      ]
+   }
+}
+requirements: [
+   surge-alloy/300
+   steel/300
+   steel-plating/240
+   complex-gearbox/180
+]
+category: crafting
+research: t5-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: surge-plating/1
+
+

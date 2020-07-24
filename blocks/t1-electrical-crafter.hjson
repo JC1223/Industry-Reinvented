@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Electrical Component Crafter
+description: Manufactures electrical components.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 80
+consumes:{
+   power: 1.9
+   items: {
+      items: [
+         copper/4
+      ]
+   }
+}
+requirements: [
+   copper/120
+   iron/120
+   graphite/40
+   simple-gearbox/50
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: electrical-component/1
+
+

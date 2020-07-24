@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Intricate Gearbox Assembler
+description: Constructs intricate gearboxes.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 90
+consumes:{
+   power: 1.2
+   items: {
+      items: [
+         simple-gearbox/1
+         iron-gear/3
+         titanium-plating/1
+      ]
+   }
+}
+requirements: [
+   iron/220
+   titanium/120
+   silicon/120
+   electrical-component/50
+]
+category: crafting
+research: t1-gearbox-assembler
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: intricate-gearbox/1
+
+
