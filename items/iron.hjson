@@ -1,6 +1,0 @@
-type: material
-name: Iron
-description: A strong but difficult to work with metal.
-hardness: 3
-cost: 1
-color: b0664e
