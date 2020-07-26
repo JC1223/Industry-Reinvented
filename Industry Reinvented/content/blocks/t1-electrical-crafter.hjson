@@ -20,7 +20,7 @@ requirements: [
    simple-gearbox/50
 ]
 category: crafting
-research: duo
+research: silicon-smelter
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: electrical-component/1

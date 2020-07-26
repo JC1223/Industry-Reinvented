@@ -1,0 +1,6 @@
+requirements: [
+   electrical-component/4
+   graphite/30
+   titanium-tubing/5
+   lead-plating/15
+]

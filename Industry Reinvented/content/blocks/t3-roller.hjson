@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Titanium Roller
+description: Rolls titanium plating into titanium tubing.
+size: 1
+hasItems: true
+craftTime: 60
+consumes:{
+   items: {
+      items: [
+         titanium-plating/1
+      ]
+   }
+}
+requirements: [
+   bronze/90
+   lead/130
+   titanium-plating/5
+   simple-gearbox/5
+]
+category: crafting
+research: t2-roller
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: titanium-tubing/1
+
+

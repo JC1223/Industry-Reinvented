@@ -1,0 +1,22 @@
+name: Electric Drill
+description: A small drill.
+type: Drill
+size: 1
+tier: 2
+drillTime: 330
+consumes: {
+   power: 2
+   liquid: {
+      liquid: water
+      amount: 0.1
+      booster: true
+      optional: true
+   }
+}
+requirements: [
+   bronze/20
+   electrical-component/5
+   lead-plating/5
+]
+category: production
+research: pneumatic-drill

@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Bronze Gear Lathe
 description: Turns bronze into gears.
 size: 1
-hasPower: true
+hasPowe: true
 hasItems: true
 craftTime: 30
 consumes:{
@@ -19,7 +19,7 @@ requirements: [
    bronze/30
 ]
 category: crafting
-research: duo
+research: bronze-smelter
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: bronze-gear/1

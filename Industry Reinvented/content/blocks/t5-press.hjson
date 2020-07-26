@@ -15,9 +15,9 @@ consumes:{
 }
 requirements: [
    steel/260
-   plastanium/260
+   plastanium/100
    graphite/200
-   steel-plating/100
+   steel-plating/40
 ]
 category: crafting
 research: t4-press

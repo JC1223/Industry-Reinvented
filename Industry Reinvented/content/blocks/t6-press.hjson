@@ -14,10 +14,10 @@ consumes:{
    }
 }
 requirements: [
-   surge-alloy/300
    steel/300
-   steel-plating/240
-   complex-gearbox/180
+   surge-alloy/150
+   steel-plating/150
+   complex-gearbox/50
 ]
 category: crafting
 research: t5-press

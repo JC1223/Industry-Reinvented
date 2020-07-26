@@ -1,0 +1,5 @@
+type: material
+name: Steel Cable
+description: A group of thin strands of steel.
+cost: 1
+color: d6eaee

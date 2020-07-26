@@ -1,28 +1,26 @@
 type: GenericCrafter
-name: Steel Press
-description: Makes a large flat sheet of steel.
+name: Steel Roller
+description: Rolls steel plating into steel tubing.
 size: 1
-hasPower: true
 hasItems: true
 craftTime: 60
 consumes:{
-   power: 0.7
    items: {
       items: [
-         steel/4
+         steel-plating/1
       ]
    }
 }
 requirements: [
-   bronze/200
-   steel/120
-   graphite/120
+   bronze/210
+   steel/130
+   steel-plating/5
    intricate-gearbox/20
 ]
 category: crafting
-research: t3-press
+research: t3-roller
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: steel-plating/1
+outputItem: steel-tubing/1
 
 

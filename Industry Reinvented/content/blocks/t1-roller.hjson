@@ -1,25 +1,25 @@
 type: GenericCrafter
-name: Copper Press
-description: Makes a large flat sheet of copper.
+name: Copper Roller
+description: Rolls copper plating into copper tubing.
 size: 1
 hasItems: true
 craftTime: 60
 consumes:{
    items: {
       items: [
-         copper/4
+         copper-plating/1
       ]
    }
 }
 requirements: [
-   copper/80
-   lead/80
-   graphite/20
+   copper/90
+   lead/90
+   copper-plating/5
 ]
 category: crafting
-research: graphite-press
+research: t1-press
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: copper-plating/1
+outputItem: copper-tubing/1
 
 
