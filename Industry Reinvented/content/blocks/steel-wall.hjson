@@ -4,7 +4,7 @@ description: A sturdy but expensive wall.
 size: 1
 health: 674
 requirements: [
-   steel/5
+   steel/6
 ]
 category: defense
 research: titanium-wall

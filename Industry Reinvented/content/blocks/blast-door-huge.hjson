@@ -1,0 +1,11 @@
+type: Door
+name: Huge Blast Door
+description: A huge blast door. Can be opened or closed by tapping. Spans even more tiles.
+size: 3
+health: 6965
+requirements: [
+   steel/62
+   silicon/41
+]
+category: defense
+research: blast-door-large

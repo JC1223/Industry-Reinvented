@@ -1,0 +1,11 @@
+type: Door
+name: Huge Door
+description: A huge door. Can be opened and closed by tapping. Spans even more tiles.
+size: 3
+health: 4133
+requirements: [
+   graphite/62
+   silicon/41
+]
+category: defense
+research: door-large

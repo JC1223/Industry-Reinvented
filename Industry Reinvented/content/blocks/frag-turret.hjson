@@ -1,0 +1,103 @@
+type: ItemTurret
+name: Frag
+desc: A medium sized turret. All bullets shot explode outward.
+health: 1200
+size: 2
+ammoPerShot: 1.0
+rotateSpeed: 1
+inaccuracy: 10
+reload: 80
+range: 120
+targetAir: false
+targetGround: true
+maxAmmo: 10	
+ammo: {
+   iron: {
+      speed: 2.0
+      reloadMultiplier: 1.0
+      damage: 5
+      bulletWidth: 8
+      bulletHeight: 8
+      despawnEffect: flakExplosion
+      smokeEffect: shootSmallSmoke
+      ammoMultiplier: 1
+      backColor: 202020
+      frontColor: 202020
+      pierce: false
+      fragBullet: {
+         speed: 5.0
+         lifetime: 5
+         damage: 7
+         bulletWidth: 4
+         bulletHeight: 4
+         keepVelocity: false
+         knockback: 0.1
+         drag: 0.1
+      }
+      fragBullets: 25
+      fragVelocityMin: 3
+      fragVelocityMax: 3
+      explodeRange: 36
+   }
+   tin: {
+      speed: 2.0
+      reloadMultiplier: 1.0
+      damage: 3
+      bulletWidth: 8
+      bulletHeight: 8
+      despawnEffect: flakExplosion
+      smokeEffect: shootSmallSmoke
+      ammoMultiplier: 1
+      backColor: 202020
+      frontColor: 202020
+      pierce: false
+      fragBullet: {
+         speed: 4.0
+         lifetime: 7
+         damage: 3
+         bulletWidth: 4
+         bulletHeight: 4
+         keepVelocity: false
+         knockback: 0.1
+         drag: 0.1
+      }
+      fragBullets: 36
+      fragVelocityMin: 1
+      fragVelocityMax: 1.5
+      explodeRange: 24
+   }
+   metaglass: {
+      speed: 5.0
+      reloadMultiplier: 1.0
+      damage: 3
+      bulletWidth: 8
+      bulletHeight: 8
+      despawnEffect: flakExplosion
+      smokeEffect: shootSmallSmoke
+      ammoMultiplier: 2
+      backColor: 202020
+      frontColor: 202020
+      pierce: false
+      fragBullet: {
+         speed: 7.0
+         lifetime: 2
+         damage: 1
+         bulletWidth: 4
+         bulletHeight: 4
+         keepVelocity: false
+         knockback: 0.1
+         drag: 0.1
+      }
+      fragBullets: 29
+      fragVelocityMin: 6
+      fragVelocityMax: 6
+      explodeRange: 45
+   }
+}
+requirements: [
+   intricate-gearbox/3
+   steel-plating/5
+   steel-tubing/3
+]
+category: turret
+research: salvo

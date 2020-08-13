@@ -1,0 +1,5 @@
+type: material
+name: Semiconductor
+description: A semiconductive material made to use in electronics.
+cost: 1
+color: 9f9712

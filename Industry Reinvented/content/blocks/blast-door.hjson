@@ -1,0 +1,11 @@
+type: Door
+name: Blast Door
+description: A small blast dor. Can be opened or closed by tapping.
+size: 1
+health: 674
+requirements: [
+   steel/6
+   silicon/4
+]
+category: defense
+research: door-huge

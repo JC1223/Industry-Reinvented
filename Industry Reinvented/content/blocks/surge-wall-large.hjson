@@ -1,3 +1,6 @@
+lightningChance: 0.075
+lightningDamage: 17
+lightningLength: 20
 requirements: [
    surge-alloy/12
    surge-plating/3

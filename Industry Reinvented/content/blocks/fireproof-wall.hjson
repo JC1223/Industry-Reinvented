@@ -1,0 +1,11 @@
+type: Wall
+name: Fireproof Wall
+description: A weak wall that blocks fire and electricity.
+size: 1
+health: 400
+insulated: true
+requirements: [
+   fireproof-plastic/6
+]
+category: defense
+research: plastanium-wall

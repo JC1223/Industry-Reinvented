@@ -1,0 +1,5 @@
+type: material
+name: Superconductor
+description: A superconductive material that carries electrical currents and magnetic fields extremely well.
+cost: 1
+color: efd69e

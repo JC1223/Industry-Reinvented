@@ -1,0 +1,5 @@
+type: resource
+name: Nanite
+description: An incredibly small robot.
+cost: 1
+color: 004007

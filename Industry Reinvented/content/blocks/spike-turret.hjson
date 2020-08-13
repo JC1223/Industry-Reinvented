@@ -1,0 +1,109 @@
+type: ItemTurret
+name: Spike
+desc: A medium long range turret. Shoots a large peircing spike at enemies.
+health: 800
+size: 2
+ammoPerShot: 1.0
+rotateSpeed: 5
+inaccuracy: 5
+reload: 20
+range: 160
+targetAir: true
+targetGround: true
+maxAmmo: 30	
+ammo: {
+   bronze: {
+      speed: 6.0
+      reloadMultiplier: 1.0
+      damage: 5
+      bulletWidth: 7
+      bulletHeight: 21
+      shootEffect: shootBigSmoke
+      smokeEffect: shootSmallFlame
+      ammoMultiplier: 2
+      knockback: 3
+      backColor: 902020
+      frontColor: 902020
+      pierce: true
+   }
+   steel: {
+      speed: 6.5
+      reloadMultiplier: 1.2
+      damage: 13
+      bulletWidth: 9
+      bulletHeight: 23
+      shootEffect: shootBigSmoke
+      smokeEffect: shootSmallFlame
+      ammoMultiplier: 4
+      knockback: 7
+      backColor: 902020
+      frontColor: 902020
+      pierce: true
+   }
+   metaglass: {
+      speed: 6.0
+      reloadMultiplier: 1.0
+      damage: 6
+      bulletWidth: 7
+      bulletHeight: 21
+      despawnEffect: flakExplosion
+      shootEffect: shootBigSmoke
+      smokeEffect: shootSmallFlame
+      ammoMultiplier: 5
+      knockback: 3
+      backColor: 902020
+      frontColor: 902020
+      pierce: true
+      fragBullet: {
+         speed: 2.0
+         lifetime: 4
+         damage: 3
+         bulletWidth: 4
+         bulletHeight: 4
+         keepVelocity: false
+         knockback: 0.1
+         drag: 0.1
+      }
+      fragBullets: 4
+      fragVelocityMin: 2
+      fragVelocityMax: 2
+      explodeRange: 24
+   }
+   tin: {
+      speed: 5.75
+      reloadMultiplier: 1.8
+      damage: 5
+      bulletWidth: 11
+      bulletHeight: 25
+      despawnEffect: flakExplosion
+      shootEffect: shootBigSmoke
+      smokeEffect: shootSmallFlame
+      ammoMultiplier: 1
+      knockback: 2
+      backColor: 902020
+      frontColor: 902020
+      pierce: true
+      fragBullet: {
+         speed: 2.0
+         lifetime: 4
+         damage: 1
+         bulletWidth: 4
+         bulletHeight: 4
+         keepVelocity: false
+         knockback: 0.1
+         drag: 0.1
+      }
+      fragBullets: 13
+      fragVelocityMin: 0.5
+      fragVelocityMax: 1
+      explodeRange: 24
+   }
+}
+
+requirements: [
+   simple-gearbox/5
+   lead-plating/15
+   bronze/45
+]
+category: turret
+research: scatter

@@ -1,0 +1,12 @@
+type: Wall
+name: Large Fireproof Wall
+description: A weak wall that blocks fire and electricity. Spans multiple tiles.
+size: 2
+health: 1600
+insulated: true
+requirements: [
+   fireproof-plastic/12
+   fireproof-plating/3
+]
+category: defense
+research: fireproof-wall
