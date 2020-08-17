@@ -1,0 +1,25 @@
+type: MendProjector
+name: Nanite Hub
+description: A long-range, slow repair structure.
+size: 3
+health: 120
+consumes: {
+   items: {
+      items: [
+	     nanite/1
+	  ]
+   }
+   power: 20
+   
+}
+
+requirements: [
+   thorium/400
+
+]
+reload: 200
+range: 200
+healPercent: 5
+category: effect
+research: mend-projector
+   
