@@ -17,7 +17,7 @@ requirements: [
    thorium/400
 
 ]
-reload: 200
+reload: 300
 range: 200
 healPercent: 5
 category: effect
