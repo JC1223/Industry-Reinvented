@@ -19,7 +19,7 @@ requirements: [
 ]
 reload: 300
 range: 200
-healPercent: 5
+healPercent: 3
 category: effect
 research: mend-projector
    
