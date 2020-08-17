@@ -25,7 +25,7 @@ requirements: [
 category: crafting
 research: t1-gearbox-assembler
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: intricate-gearbox/1
 
 

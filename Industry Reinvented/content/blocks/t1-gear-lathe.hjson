@@ -22,7 +22,7 @@ requirements: [
 category: crafting
 research: bronze-smelter
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: bronze-gear/1
 
 

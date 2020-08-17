@@ -19,5 +19,7 @@ requirements: [
    electrical-component/5
    lead-plating/5
 ]
+idleSound: respawning
+idleSoundVolume: 0.005
 category: production
 research: pneumatic-drill

@@ -21,7 +21,7 @@ requirements: [
 category: crafting
 research: t3-roller
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: steel-tubing/1
 
 

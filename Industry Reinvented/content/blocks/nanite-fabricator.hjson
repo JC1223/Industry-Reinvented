@@ -26,7 +26,7 @@ requirements: [
 category: crafting
 research: mend-projector
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: nanite/3
 
 

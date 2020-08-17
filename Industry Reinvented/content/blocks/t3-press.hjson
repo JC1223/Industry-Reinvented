@@ -23,7 +23,7 @@ requirements: [
 category: crafting
 research: t2-press
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: titanium-plating/1
 
 

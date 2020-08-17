@@ -20,7 +20,7 @@ requirements: [
 category: crafting
 research: t1-press
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: copper-tubing/1
 
 

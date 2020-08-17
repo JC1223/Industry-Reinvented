@@ -30,5 +30,5 @@ requirements: [
 category: crafting
 research: plastanium-compressor
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: fireproof-plastic/2

@@ -23,7 +23,7 @@ requirements: [
 category: crafting
 research: silicon-smelter
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: electrical-component/1
 
 

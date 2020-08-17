@@ -20,7 +20,7 @@ requirements: [
 category: crafting
 research: t1-roller
 idleSound: respawning
-idleSoundVolume: 0.5
+idleSoundVolume: 0.01
 outputItem: lead-tubing/1
 
 
