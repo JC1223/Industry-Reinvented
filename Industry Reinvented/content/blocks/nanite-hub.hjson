@@ -4,7 +4,7 @@ description: A slow but long range access point for nanites. Repairs blocks in i
 size: 3
 health: 650
 consumes: {
-   power: 20   
+   power: 5   
    items: {
       items: [
          nanite/1
