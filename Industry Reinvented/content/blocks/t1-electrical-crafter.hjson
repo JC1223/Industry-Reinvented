@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Electrical Component Crafter
 description: Manufactures electrical components.
 size: 2
+health: 60
 hasPower: true
 hasItems: true
 craftTime: 80

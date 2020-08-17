@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Lead Roller
 description: Rolls lead plating into lead tubing.
 size: 1
+health: 60
 hasItems: true
 craftTime: 60
 consumes:{

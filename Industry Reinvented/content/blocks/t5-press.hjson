@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Plastanium Press
 description: Makes a large flat sheet of plastanium.
 size: 1
+health: 60
 hasPower: true
 hasItems: true
 craftTime: 60

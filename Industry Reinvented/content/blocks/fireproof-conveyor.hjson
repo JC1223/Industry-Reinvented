@@ -1,0 +1,13 @@
+type: Conveyor
+name: Fireproof Conveyor
+description: Fireproof item transport block. Moves items faster than titanium conveyors.
+health: 75
+requirements: [
+  copper/1
+  metaglass/1
+  fireproof-plastic/1
+]
+category: distribution
+speed: 0.12857143
+displayedSpeed: 18
+research: titanium-conveyor

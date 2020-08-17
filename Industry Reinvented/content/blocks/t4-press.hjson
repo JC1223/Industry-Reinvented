@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Steel Press
 description: Makes a large flat sheet of steel.
 size: 1
+health: 60
 hasPower: true
 hasItems: true
 craftTime: 60

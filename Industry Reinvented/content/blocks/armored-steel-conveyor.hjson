@@ -1,0 +1,13 @@
+type: ArmoredConveyor
+name: Armored Steel Conveyor
+description: Moves items at the same speed as steel conveyors, but possesses more armor. Does not accept inputs from the sides from anything but other conveyor belts.
+health: 200
+requirements: [
+  thorium/1
+  plastanium/1
+  steel/1
+]
+category: distribution
+speed: 0.17142858
+displayedSpeed: 24
+research: steel-conveyor

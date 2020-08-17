@@ -1,0 +1,25 @@
+type: MendProjector
+name: Nanite Hub
+description: A slow but long range access point for nanites. Repairs blocks in its vicinity.
+size: 3
+health: 650
+consumes: {
+   power: 20   
+   items: {
+      items: [
+         nanite/1
+      ]
+   } 
+}
+
+requirements: [
+   thorium/400
+   computing-chip/50
+   lead-plating/75
+]
+reload: 300
+range: 200
+healPercent: 5
+category: effect
+research: mend-projector
+   

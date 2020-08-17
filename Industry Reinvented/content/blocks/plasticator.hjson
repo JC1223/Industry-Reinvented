@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Plasticator
+description: Mixes large amounts of tin into plastanium and water to create an insulating plastic substance.
+size: 3
+health: 320
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+   power: 2.3
+   items: {
+      items: [
+         tin/3
+         plastanium/1
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 4
+   }
+}
+requirements: [
+   titanium/120
+   silicon/90
+   steel-tubing/15
+   plastanium-plating/10
+]
+category: crafting
+research: plastanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: fireproof-plastic/2

@@ -4,6 +4,7 @@ type: Drill
 size: 1
 tier: 2
 drillTime: 330
+health: 160
 consumes: {
    power: 2
    liquid: {

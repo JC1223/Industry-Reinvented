@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Steel Roller
 description: Rolls steel plating into steel tubing.
 size: 1
+health: 60
 hasItems: true
 craftTime: 60
 consumes:{

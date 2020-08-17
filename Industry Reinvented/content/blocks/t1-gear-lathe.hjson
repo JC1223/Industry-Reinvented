@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Bronze Gear Lathe
 description: Turns bronze into gears.
 size: 1
+health: 60
 hasPowe: true
 hasItems: true
 craftTime: 30

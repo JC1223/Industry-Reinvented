@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Surge Alloy Roller
 description: Rolls surge alloy plating into surge alloy tubing.
 size: 1
+health: 60
 hasItems: true
 craftTime: 60
 consumes:{
@@ -18,7 +19,7 @@ requirements: [
    complex-gearbox/50
 ]
 category: crafting
-research: t5-roller
+research: t7-roller
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: surge-tubing/1

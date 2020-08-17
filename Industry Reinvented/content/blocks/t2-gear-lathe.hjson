@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Iron Gear Lathe
 description: Turns iron into gears.
 size: 1
+health: 60
 hasPower: true
 hasItems: true
 craftTime: 30

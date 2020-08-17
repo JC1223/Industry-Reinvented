@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Fireproof Plastic Press
+description: Makes a large flat sheet of fireproof plastic.
+size: 1
+health: 60
+hasPower: true
+hasItems: true
+craftTime: 60
+consumes:{
+   power: 0.7
+   items: {
+      items: [
+          fireproof-plastic/4
+      ]
+   }
+}
+requirements: [
+   steel/280
+   fireproof-plastic/120
+   graphite/220
+   steel-plating/80
+]
+category: crafting
+research: t5-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: fireproof-plating/1
+
+

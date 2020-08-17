@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Nanite Fabricator
+description: Makes extremely small robots that can be put into other machines.
+size: 2
+health: 320
+hasPower: true
+hasItems: true
+craftTime: 40
+consumes:{
+   power: 3.6
+   items: {
+      items: [
+         thorium/1
+         semiconductor/1
+         computing-chip/2
+      ]
+   }
+}
+requirements: [
+   thorium/240
+   lead-plating/50
+   graphite/175
+   metaglass/190
+   computing-chip/75
+]
+category: crafting
+research: mend-projector
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: nanite/3
+
+

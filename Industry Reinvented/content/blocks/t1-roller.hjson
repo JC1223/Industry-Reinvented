@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Copper Roller
 description: Rolls copper plating into copper tubing.
 size: 1
+health: 60
 hasItems: true
 craftTime: 60
 consumes:{

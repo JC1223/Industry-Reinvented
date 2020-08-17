@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Complex Gearbox Assembler
 description: Constructs complex gearboxes.
 size: 2
+health: 60
 hasPower: true
 hasItems: true
 craftTime: 90

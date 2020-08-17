@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Wire Strander
+description: Creates spools of steel wire from steel.
+size: 2
+health: 60
+hasPower: true
+hasItems: true
+craftTime: 30
+consumes:{
+   power: 0.6
+   items: {
+      items: [
+         steel/3
+      ]
+   }
+}
+requirements: [
+   titanium/100
+   copper/60
+   lead-tubing/25
+   electrical-component/25
+]
+category: crafting
+research: blast-furnace
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: steel-cable/2
+
+

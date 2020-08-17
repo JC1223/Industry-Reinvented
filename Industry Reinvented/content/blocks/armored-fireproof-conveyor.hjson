@@ -1,0 +1,13 @@
+type: ArmoredConveyor
+name: Armored Fireproof Conveyor
+description: Moves items at the same speed as fireproof conveyors, but possesses more armor. Does not accept inputs from the sides from anything but other conveyor belts.
+health: 190
+requirements: [
+  thorium/1
+  plastanium/1
+  fireproof-plastic/1
+]
+category: distribution
+speed: 0.12857143
+displayedSpeed: 18
+research: fireproof-conveyor

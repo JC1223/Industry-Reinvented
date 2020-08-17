@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Plastanium Roller
+description: Rolls plastanium plating into plastanium tubing.
+size: 1
+health: 60
+hasItems: true
+craftTime: 60
+consumes:{
+   items: {
+      items: [
+         fireproof-plating/1
+      ]
+   }
+}
+requirements: [
+   steel/290
+   fireproof-plastic/130
+   fireproof-plating/5
+   intricate-gearbox/40
+]
+category: crafting
+research: t5-roller
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: fireproof-tubing/1
+
+

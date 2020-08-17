@@ -1,0 +1,13 @@
+type: ArmoredConveyor
+name: Armored Surge Conveyor
+description: Moves items at the same speed as surge conveyors, but possesses more armor. Does not accept inputs from the sides from anything but other conveyor belts.
+health: 220
+requirements: [
+  thorium/1
+  plastanium/1
+  surge-alloy/1
+]
+category: distribution
+speed: 0.25714286
+displayedSpeed: 36
+research: surge-conveyor

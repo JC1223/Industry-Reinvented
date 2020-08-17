@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Superconductor Cryoformer
+description: Makes a superconductive form of tin by lowering its temprature extremely far. Don't question how it stays cold.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 60
+consumes:{
+   power: 3.3
+   items: {
+      items: [
+         tin/5
+      ]
+   }
+   liquid: {
+      liquid: cryofluid
+      amount: 0.2
+   }
+}
+requirements: [
+   titanium/180
+   titanium-plating/60
+   steel-tubing/35
+]
+category: crafting
+research: cryofluidmixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: superconductor/1
+
+

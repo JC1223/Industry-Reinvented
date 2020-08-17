@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Crucible
+description: Mixes iron and pyratite into a semiconductive metal. It kind of looks like gold.
+size: 2
+health: 60
+hasPower: true
+hasItems: true
+craftTime: 60
+consumes:{
+   power: 2.8
+   items: {
+      items: [
+         iron/1
+         pyratite/2
+      ]
+   }
+}
+requirements: [
+   bronze/200
+   intricate-gearbox/20
+   graphite/150
+]
+category: crafting
+research: pyratite-mixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: semiconductor/1
+
+

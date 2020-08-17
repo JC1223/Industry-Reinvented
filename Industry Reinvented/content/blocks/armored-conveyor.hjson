@@ -1,0 +1,8 @@
+name: Titanium Armored Conveyor
+speed: 0.08571429
+displayedSpeed: 12
+requirements: [
+   thorium/1
+   plastanium/1
+   titanium/1
+]
