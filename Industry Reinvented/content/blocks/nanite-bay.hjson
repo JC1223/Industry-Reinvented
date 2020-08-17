@@ -2,24 +2,25 @@ type: MendProjector
 name: Nanite Bay
 description: A fast but nano-range access point for nanites. Repairs blocks in its vicinity.
 size: 2
-health: 650
+health: 450
 consumes: {
    power: 5   
    items: {
       items: [
-         nanite/4
+         nanite/2
       ]
    } 
 }
 
 requirements: [
-   thorium/400
-   computing-chip/50
-   lead-plating/75
+   thorium/150
+   computing-chip/100
+   lead-plating/25
+   semiconductor/250
 ]
-reload: 300
+reload: 100
 range: 50
-healPercent: 9
+healPercent: 3
 category: effect
 research: mend-projector
    
