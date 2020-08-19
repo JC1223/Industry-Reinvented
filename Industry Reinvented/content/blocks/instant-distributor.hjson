@@ -9,5 +9,5 @@ itemCapacity: 0
 requirements: [
    intricate-gearbox/4
 ]
-category: crafting
-research: distributor
+category: distribution
+research: instant-router

@@ -9,5 +9,5 @@ itemCapacity: 0
 requirements: [
    intricate-gearbox/3
 ]
-category: crafting
+category: distribution
 research: distributor

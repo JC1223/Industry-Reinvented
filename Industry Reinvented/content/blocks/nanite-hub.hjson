@@ -8,8 +8,7 @@ consumes: {
    items: {
       items: [
          nanite/1
-         booster: false
-         optional: false
+         
       ]
    }
    liquid: {
