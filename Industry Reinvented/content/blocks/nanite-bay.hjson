@@ -9,6 +9,12 @@ consumes: {
       items: [
          nanite/2
       ]
+	  liquid: [
+	     liquid: cryofluid
+		 amount: 0.2
+		 booster: true
+		 optional: true
+	  ]
    } 
 }
 
