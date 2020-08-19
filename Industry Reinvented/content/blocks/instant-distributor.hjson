@@ -1,0 +1,13 @@
+type: Router
+name: Instant Distributor
+description: An advanced instant router. Splits items to up to 7 other directions equally.
+size: 2
+health: 480
+hasItems: true
+instantTransfer: true
+itemCapacity: 0
+requirements: [
+   intricate-gearbox/4
+]
+category: crafting
+research: distributor

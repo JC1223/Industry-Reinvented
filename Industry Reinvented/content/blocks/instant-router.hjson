@@ -1,0 +1,13 @@
+type: Router
+name: Instant Router
+description: Accepts items, then outputs them to up to 3 other directions equally. Instantly moves items through itself.
+size: 1
+health: 120
+hasItems: true
+instantTransfer: true
+itemCapacity: 0
+requirements: [
+   intricate-gearbox/3
+]
+category: crafting
+research: distributor
