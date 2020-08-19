@@ -3,4 +3,4 @@ name: Fireproof Plastic
 description: A material that is highly resistant to temprature.
 cost: 1
 color: 42b54f
-flammability: -10
+flammability: -1
