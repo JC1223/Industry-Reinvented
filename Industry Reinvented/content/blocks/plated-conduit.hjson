@@ -1,0 +1,6 @@
+name: Plated Titanium Conduit
+requirements: [
+    thorium/2
+    metaglass/1
+    titanium-tubing/1
+]

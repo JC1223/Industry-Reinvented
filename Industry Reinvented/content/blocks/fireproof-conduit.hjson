@@ -1,0 +1,12 @@
+type: Conduit
+name: Fireproof Conduit
+description: Fireproof liquid transport block. Transports liquids faster and stores more than pulse conduits.
+health: 113
+requirements: [
+  metaglass/1
+  fireproof-tubing/1
+]
+liquidCapacity: 19
+liquidPressure: 1.0375
+category: liquid
+research: pulse-conduit

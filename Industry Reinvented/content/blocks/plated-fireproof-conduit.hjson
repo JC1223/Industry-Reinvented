@@ -1,0 +1,13 @@
+type: ArmoredConduit
+name: Plated Fireproof Conduit
+description: Moves liquids at the same rate as fireproof conduits, but possesses more armor. Does not accept fluids from the sides by anything other than conduits. Leaks less.
+health: 243
+requirements: [
+   metaglass/1
+   thorium/2
+   fireproof-tubing/1
+]
+liquidCapacity: 19
+liquidPressure: 1.0375
+category: liquid
+research: fireproof-conduit

@@ -1,0 +1,12 @@
+type: Conduit
+name: Ring Conduit
+description: Improved liquid transport block. Transports liquids faster and stores more than pulse conduits.
+health: 140
+requirements: [
+  metaglass/1
+  steel-tubing/1
+]
+liquidCapacity: 22
+liquidPressure: 1.05
+category: liquid
+research: pulse-conduit
