@@ -1,0 +1,34 @@
+type: ChargeTurret
+name: Halberd
+desc: A medium-range laser turret.
+health: 600
+size: 2
+reload: 60
+rotatespeed: 10
+range: 160
+targetAir: true
+targetGround: true
+powerUse: 3
+chargeTime: 120
+chargeEffects: 10
+chargeMaxDelay: 30
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+cooldown: 60
+shootType: {
+	"type" : "BasicBulletType"
+		"trailEffect" : "artilleryTrail"
+		"speed": 10
+		"lifetime" : 16
+		"damage": 20
+		"bulletHeight" : 20
+		"hitEffect": "hitLaser"
+		"shootEffect": "smelt"
+		"pierce": true
+		"smokeEffect": "smelt"
+		"frontColor": "#67daff"
+    }
+requirements: [
+  thorium/50
+  ]
+category: turret

@@ -1,0 +1,17 @@
+type: PowerTurret
+name: Tesla
+desc: A medium-range lightning turret.
+health: 800
+size: 2
+reload: 120
+rotatespeed: 5
+range: 80
+targetAir: true
+targetGround: true
+powerUse: 3
+shootType: lightning
+	
+requirements: [
+  thorium/50
+  ]
+category: turret

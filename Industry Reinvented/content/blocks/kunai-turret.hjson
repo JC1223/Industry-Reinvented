@@ -1,0 +1,35 @@
+type: ChargeTurret
+name: Kunai
+desc: A long-range weak laser turret.
+health: 600
+size: 2
+reload: 5
+rotatespeed: 10
+range: 300
+targetAir: true
+targetGround: true
+powerUse: 3
+chargeTime: 60
+chargeEffects: 10
+chargeMaxDelay: 30
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+
+shootType: {
+	"type" : "BasicBulletType"
+		"trailEffect" : "artilleryTrail"
+		"speed": 20
+		
+		"damage": 1
+		"bulletHeight" : 10
+		bulletWidth:2
+		"hitEffect": "hitLaser"
+		"shootEffect": "smelt"
+		"pierce": false
+		"smokeEffect": "smelt"
+		"frontColor": "#67daff"
+    }
+requirements: [
+  thorium/50
+  ]
+category: turret
