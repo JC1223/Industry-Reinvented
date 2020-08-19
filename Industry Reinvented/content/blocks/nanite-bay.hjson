@@ -26,6 +26,8 @@ requirements: [
 ]
 reload: 100
 range: 20
+phaseRangeBoost: 0
+phaseBoost: 3
 healPercent: 3
 category: effect
 research: mend-projector
