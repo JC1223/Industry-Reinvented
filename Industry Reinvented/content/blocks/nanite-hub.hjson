@@ -8,16 +8,17 @@ consumes: {
    items: {
       items: [
          nanite/1
+         booster: false
+         optional: false
       ]
-	  liquid: [
-	     liquid: cryofluid
-		 amount: 0.2
-		 booster: true
-		 optional: true
-	  ]
-   } 
+   }
+   liquid: {
+      liquid: cryofluid
+      amount: 0.2
+      booster: true
+      optional: true
+   }
 }
-
 requirements: [
    thorium/400
    computing-chip/50
