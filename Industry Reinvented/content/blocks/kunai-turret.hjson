@@ -3,7 +3,7 @@ name: Kunai
 desc: A long-range weak laser turret.
 health: 600
 size: 2
-reload: 5
+reload: 1
 rotatespeed: 10
 range: 300
 targetAir: true
@@ -27,7 +27,7 @@ shootType: {
 		"shootEffect": "smelt"
 		"pierce": false
 		"smokeEffect": "smelt"
-		"frontColor": "#67daff"
+		"frontColor": "#ee0000"
     }
 requirements: [
   thorium/50

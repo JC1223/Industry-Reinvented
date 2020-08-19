@@ -9,7 +9,7 @@ range: 160
 targetAir: true
 targetGround: true
 powerUse: 3
-chargeTime: 120
+chargeTime: 60
 chargeEffects: 10
 chargeMaxDelay: 30
 chargeEffect: lancerLaserCharge
@@ -20,13 +20,13 @@ shootType: {
 		"trailEffect" : "artilleryTrail"
 		"speed": 10
 		"lifetime" : 16
-		"damage": 20
+		"damage": 40
 		"bulletHeight" : 20
 		"hitEffect": "hitLaser"
 		"shootEffect": "smelt"
 		"pierce": true
 		"smokeEffect": "smelt"
-		"frontColor": "#67daff"
+		"frontColor": "#ee2244"
     }
 requirements: [
   thorium/50
