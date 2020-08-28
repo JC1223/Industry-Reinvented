@@ -1,0 +1,11 @@
+type: Wall
+name: Large Bronze Wall
+description: A wall that's slightly better than copper. Spans multiple tiles.
+size: 2
+health: 1520
+requirements: [
+   bronze/12
+   bronze-plating/3
+]
+category: defense
+research: bronze-wall

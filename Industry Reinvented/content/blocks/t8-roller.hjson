@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Bronze Roller
+description: Rolls bronze plating into bronze tubing.
+size: 1
+health: 60
+hasItems: true
+craftTime: 60
+consumes:{
+   items: {
+      items: [
+         bronze-plating/1
+      ]
+   }
+}
+requirements: [
+   copper/170
+   lead/170
+   bronze-plating/5
+]
+category: crafting
+research: t2-press
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: bronze-tubing/1
+
+

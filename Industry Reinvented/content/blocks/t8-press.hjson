@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Bronze Press
+description: Makes a large flat sheet of bronze.
+size: 1
+health: 60
+hasItems: true
+craftTime: 60
+consumes:{
+   items: {
+      items: [
+         bronze/4
+      ]
+   }
+}
+requirements: [
+   copper/160
+   lead/160
+   graphite/60
+]
+category: crafting
+research: t2-press
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: bronze-plating/1
+
+
