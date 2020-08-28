@@ -7,7 +7,7 @@ reload: 1
 rotatespeed: 10
 range: 300
 targetAir: true
-targetGround: true
+targetGround: false
 powerUse: 3
 chargeTime: 60
 chargeEffects: 10
@@ -16,20 +16,23 @@ chargeEffect: lancerLaserCharge
 chargeBeginEffect: lancerLaserChargeBegin
 
 shootType: {
-	"type" : "BasicBulletType"
-		"trailEffect" : "artilleryTrail"
-		"speed": 20
-		
-		"damage": 1
-		"bulletHeight" : 10
-		bulletWidth:2
-		"hitEffect": "hitLaser"
-		"shootEffect": "smelt"
-		"pierce": false
-		"smokeEffect": "smelt"
-		"frontColor": "#ee0000"
+   type: BasicBulletType
+   trailEffect: artilleryTrail
+   speed: 20
+   damage: 1
+   bulletHeight: 10
+   bulletWidth:2
+   hitEffect: hitLaser
+   shootEffect: smelt
+   pierce: false
+   smokeEffect: smelt
+   frontColor: aab0ee
+   backColor: aab0ee
     }
 requirements: [
-  thorium/50
-  ]
+   titanium/150
+   bronze-plating/75
+   electrical-component/40
+]
 category: turret
+research: lancer

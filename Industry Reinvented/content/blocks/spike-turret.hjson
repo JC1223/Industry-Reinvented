@@ -22,8 +22,8 @@ ammo: {
       smokeEffect: shootSmallFlame
       ammoMultiplier: 2
       knockback: 3
-      backColor: 902020
-      frontColor: 902020
+      backColor: 909020
+      frontColor: 909020
       pierce: true
    }
    steel: {
@@ -36,8 +36,8 @@ ammo: {
       smokeEffect: shootSmallFlame
       ammoMultiplier: 4
       knockback: 7
-      backColor: 902020
-      frontColor: 902020
+      backColor: 909020
+      frontColor: 909020
       pierce: true
    }
    metaglass: {
@@ -51,8 +51,8 @@ ammo: {
       smokeEffect: shootSmallFlame
       ammoMultiplier: 5
       knockback: 3
-      backColor: 902020
-      frontColor: 902020
+      backColor: 909020
+      frontColor: 909020
       pierce: true
       fragBullet: {
          speed: 2.0
@@ -80,8 +80,8 @@ ammo: {
       smokeEffect: shootSmallFlame
       ammoMultiplier: 1
       knockback: 2
-      backColor: 902020
-      frontColor: 902020
+      backColor: 909020
+      frontColor: 909020
       pierce: true
       fragBullet: {
          speed: 2.0

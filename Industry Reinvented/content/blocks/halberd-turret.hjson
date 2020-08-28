@@ -16,19 +16,23 @@ chargeEffect: lancerLaserCharge
 chargeBeginEffect: lancerLaserChargeBegin
 cooldown: 60
 shootType: {
-	"type" : "BasicBulletType"
-		"trailEffect" : "artilleryTrail"
-		"speed": 10
-		"lifetime" : 16
-		"damage": 40
-		"bulletHeight" : 20
-		"hitEffect": "hitLaser"
-		"shootEffect": "smelt"
-		"pierce": true
-		"smokeEffect": "smelt"
-		"frontColor": "#ee2244"
-    }
+   type: BasicBulletType
+   trailEffect: artilleryTrail
+   speed: 10
+   lifetime: 16
+   damage: 40
+   bulletHeight: 20
+   hitEffect: hitLaser
+   shootEffect: smelt
+   pierce: true
+   smokeEffect: smelt
+   frontColor: #aaeeb0
+}
 requirements: [
-  thorium/50
-  ]
+   thorium/100
+   computing-chip/50
+   lead-plating/85
+   silicon/125
+]
 category: turret
+research: lancer

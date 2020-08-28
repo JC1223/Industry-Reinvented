@@ -21,8 +21,8 @@ ammo: {
       despawnEffect: flakExplosion
       smokeEffect: shootSmallSmoke
       ammoMultiplier: 1
-      backColor: 202020
-      frontColor: 202020
+      backColor: 909020
+      frontColor: 909020
       pierce: false
       fragBullet: {
          speed: 5.0
@@ -48,8 +48,8 @@ ammo: {
       despawnEffect: flakExplosion
       smokeEffect: shootSmallSmoke
       ammoMultiplier: 1
-      backColor: 202020
-      frontColor: 202020
+      backColor: 909020
+      frontColor: 909020
       pierce: false
       fragBullet: {
          speed: 4.0
@@ -75,8 +75,8 @@ ammo: {
       despawnEffect: flakExplosion
       smokeEffect: shootSmallSmoke
       ammoMultiplier: 2
-      backColor: 202020
-      frontColor: 202020
+      backColor: 909020
+      frontColor: 909020
       pierce: false
       fragBullet: {
          speed: 7.0
