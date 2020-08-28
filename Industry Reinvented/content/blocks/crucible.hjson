@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: GenericSmelter
 name: Crucible
 description: Mixes iron and pyratite into a semiconductive metal. It kind of looks like gold.
 size: 2

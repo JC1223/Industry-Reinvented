@@ -7,7 +7,7 @@ hasItems: true
 instantTransfer: true
 itemCapacity: 0
 requirements: [
-   intricate-gearbox/3
+   simple-gearbox/3
 ]
 category: distribution
 research: distributor

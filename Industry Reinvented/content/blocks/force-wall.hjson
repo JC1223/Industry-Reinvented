@@ -1,0 +1,25 @@
+type: ForceProjector
+name: Force Wall
+description: A smaller more durable force projector.
+hasItems: true
+hasLiquids: true
+size: 1
+health: 380
+consumes: {
+   power: 1.2  
+   items: {
+      items: [
+         phase-weave/1
+      ]
+   }
+}
+requirements: [
+   thorium/50
+   titanium-plating/10
+   silicon/65
+]
+radius: 25
+breakage: 600
+phaseRadiusBoost: 10
+category: defense
+research: force-projector

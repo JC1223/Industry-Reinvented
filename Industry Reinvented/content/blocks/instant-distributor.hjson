@@ -7,7 +7,7 @@ hasItems: true
 instantTransfer: true
 itemCapacity: 0
 requirements: [
-   intricate-gearbox/4
+   simple-gearbox/4
 ]
 category: distribution
 research: instant-router
