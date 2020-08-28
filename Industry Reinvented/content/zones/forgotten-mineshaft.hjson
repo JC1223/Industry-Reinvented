@@ -2,21 +2,21 @@ name: Forgotten Mineshaft
 description: An abandoned mineshaft inside a mountain.  Old survey logs report tin, copper, coal and lead present.
 loadout: basicShard
 startingItems: [
-    copper/750
-	lead/550
+   copper/750
+   lead/550
 ]
 conditionWave: 20
 launchPeriod: 10
 requirements: [
-    {
-	type: ZoneWave
-	zone: groundZero
-	wave: 30
-	}
-	{
-	type: Unlock
-	block: combustion-generator
-	}
+   {
+      type: ZoneWave
+      zone: groundZero
+      wave: 30
+   }
+   {
+      type: Unlock
+      block: combustion-generator
+   }
 ]
 resources: [
 copper
