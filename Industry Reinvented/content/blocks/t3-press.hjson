@@ -21,7 +21,7 @@ requirements: [
    copper-plating/60
 ]
 category: crafting
-research: t2-press
+research: t8-press
 idleSound: respawning
 idleSoundVolume: 0.01
 outputItem: titanium-plating/1

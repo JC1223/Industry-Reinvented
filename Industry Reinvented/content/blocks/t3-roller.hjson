@@ -19,7 +19,7 @@ requirements: [
    simple-gearbox/5
 ]
 category: crafting
-research: t2-roller
+research: t3-roller
 idleSound: respawning
 idleSoundVolume: 0.01
 outputItem: titanium-tubing/1

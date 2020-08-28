@@ -1,0 +1,11 @@
+type: Wall
+name: Huge Bronze Wall
+description: A wall that's slightly better than copper. Spans even more tiles.
+size: 3
+health: 3927
+requirements: [
+   bronze/30
+   bronze-plating/8
+]
+category: defense
+research: bronze-wall-large

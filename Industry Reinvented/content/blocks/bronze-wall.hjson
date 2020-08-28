@@ -1,0 +1,10 @@
+type: Wall
+name: Bronze Wall
+description: A wall that's slightly better than copper.
+size: 1
+health: 380
+requirements: [
+   bronze/6
+]
+category: defense
+research: copper-wall
