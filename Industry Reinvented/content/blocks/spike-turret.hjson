@@ -6,7 +6,7 @@ size: 2
 ammoPerShot: 1.0
 rotateSpeed: 5
 inaccuracy: 5
-reload: 20
+reload: 40
 range: 160
 targetAir: true
 targetGround: true

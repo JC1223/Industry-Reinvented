@@ -7,7 +7,7 @@ ammoPerShot: 4
 rotateSpeed: 5
 inaccuracy: 10
 shots: 10
-spread: 3
+spread: 5
 reload: 60
 range: 80
 targetAir: true
@@ -21,7 +21,7 @@ ammo: {
    scrap: {
       lifetime: 20
       speed: 4.0
-	  damage: 10
+	  damage: 5
 	  bulletWidth: 4
 	  bulletHeight: 6
 	  knockback: 3
@@ -29,7 +29,7 @@ ammo: {
    copper: {
       lifetime: 16
 	  speed: 5.0
-	  damage: 8
+	  damage: 4
 	  bulletWidth: 4
 	  bulletHeight: 6
 	  knockback: 2
@@ -37,7 +37,7 @@ ammo: {
    lead: {
       lifetime: 20
       speed: 4.0
-	  damage: 6
+	  damage: 3
 	  bulletWidth: 4
 	  bulletHeight: 6
 	  knockback: 5
@@ -45,13 +45,14 @@ ammo: {
    tin: {
       lifetime: 14
       speed: 6.0
-	  damage: 4
+	  damage: 2
 	  bulletWidth: 4
 	  bulletHeight: 6
 	  knockback: 1
 	  fragBullets: 7
 	  fragBullet: {
-	     damage: 2
+	     lifetime: 5
+	     damage: 1
 	     bulletWidth: 2
 	     bulletHeight: 3
 	     knockback: 1
