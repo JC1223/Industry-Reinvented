@@ -26,7 +26,8 @@ shootType: {
    shootEffect: smelt
    pierce: true
    smokeEffect: smelt
-   frontColor: #aaeeb0
+   frontColor: aaeeb0
+   frontColor: aaeeb0
 }
 requirements: [
    thorium/100
