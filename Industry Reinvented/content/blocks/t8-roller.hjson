@@ -18,7 +18,7 @@ requirements: [
    bronze-plating/5
 ]
 category: crafting
-research: t2-press
+research: t2-roller
 idleSound: respawning
 idleSoundVolume: 0.01
 outputItem: bronze-tubing/1
