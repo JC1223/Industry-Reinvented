@@ -18,7 +18,6 @@ requirements: [
       block: combustion-generator
    }
 ]
-
 resources: [
 copper
 lead

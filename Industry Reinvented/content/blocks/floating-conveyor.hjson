@@ -7,6 +7,7 @@ requirements: [
   metaglass/1
   plastanium/1
 ]
+floating: true
 category: distribution
 speed: 0.12857143
 displayedSpeed: 18
