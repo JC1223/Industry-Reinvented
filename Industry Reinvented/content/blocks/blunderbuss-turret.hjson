@@ -1,0 +1,65 @@
+type: ItemTurret
+name: Blunderbuss
+desc: A small turret that fires multiple projectiles over medium-low ranges.
+health: 200
+size: 1
+ammoPerShot: 4
+rotateSpeed: 5
+inaccuracy: 10
+shots: 10
+spread: 3
+reload: 60
+range: 80
+targetAir: true
+targetGround: true
+maxAmmo: 12
+ammoUseEffect: shellEjectMedium
+recoil: 2
+restitution: 0.1
+shootCone: 4
+ammo: {
+   scrap: {
+      speed: 4.0
+	  damage: 10
+	  bulletWidth: 4
+	  bulletHeight: 6
+	  knockback: 3
+   }
+   copper: {
+	  speed: 5.0
+	  damage: 8
+	  bulletWidth: 4
+	  bulletHeight: 6
+	  knockback: 2
+   }
+   lead: {
+      speed: 4.0
+	  damage: 6
+	  bulletWidth: 4
+	  bulletHeight: 6
+	  knockback: 5
+   }
+   tin: {
+      speed: 6.0
+	  damage: 4
+	  bulletWidth: 4
+	  bulletHeight: 6
+	  knockback: 1
+	  fragBullets: 9
+	  fragBullet: {
+	     damage: 2
+	     bulletWidth: 2
+	     bulletHeight: 3
+	     knockback: 1
+		 pierce: true
+		 keepVelocity: true
+       }
+   }
+}
+requirements: [
+   copper/45
+   lead/15
+]
+category: turret
+research: duo
+	   
