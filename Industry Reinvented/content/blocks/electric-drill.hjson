@@ -2,7 +2,7 @@ name: Electric Drill
 description: A small drill.
 type: Drill
 size: 1
-tier: 2
+tier: 3
 drillTime: 330
 health: 160
 consumes: {
