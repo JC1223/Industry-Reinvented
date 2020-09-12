@@ -1,0 +1,33 @@
+type: Separator
+name: Core Drill
+description: A drill that gathers random resources from somewhere near the core of the planet. Requires water to operate. Doesn't need to be placed on ore patches.
+size: 4
+health: 820
+hasPower: true
+craftTime: 10.2
+consumes: {
+   power: 4.5
+   liquid: {
+      liquid: water
+      amount: 0.39
+   }
+}
+requirements: [
+   surge-tubing/60
+   superconductor/60
+   computing-chip/60
+   lead-plating/80
+   graphite/150
+   thorium/150
+]
+results: [
+   sand/10
+   copper/7
+   tin/7
+   lead/6
+   iron/5
+   titanium/4
+   thorium/2
+]
+category: production
+research: blast-drill

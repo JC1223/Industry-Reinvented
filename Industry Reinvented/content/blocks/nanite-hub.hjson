@@ -8,7 +8,6 @@ consumes: {
    items: {
       items: [
          nanite/1
-         
       ]
    }
    liquid: {
@@ -27,7 +26,7 @@ phaseRangeBoost: 0
 phaseBoost: 3
 reload: 300
 range: 200
-healPercent: 3
+healPercent: 4
 category: effect
 research: mend-projector
    
