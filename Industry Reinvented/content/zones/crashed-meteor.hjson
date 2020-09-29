@@ -1,0 +1,31 @@
+name: Crashed Meteor
+description: The site of a meteor impact.  Contains meteoric iron.
+loadout: basicShard
+startingItems: [
+   copper/900
+   lead/600
+   bronze/450
+]
+conditionWave: 20
+launchPeriod: 10
+requirements: [
+   {
+      type: ZoneWave
+      zone: forgotten-mineshaft
+      wave: 30
+   }
+   {
+      type: Unlock
+      block: blast-furnace
+   }
+   
+]
+resources: [
+copper
+lead
+tin
+coal
+sand
+scrap
+iron
+]
