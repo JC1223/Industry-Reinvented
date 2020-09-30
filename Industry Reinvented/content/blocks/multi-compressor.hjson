@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Multi Compressor
+description: An upgraded version of the plastanium compressor. Employs much more power to process titanium and oil quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 30
+consumes: {
+   power: 4.8
+   items: {
+      items: [
+         titanium/3
+      ]
+   }
+   liquid: {
+      liquid: oil
+      amount: 0.4166667
+   }
+}
+requirements: [
+   steel/50
+   lead-plating/50
+   graphite/120
+   computing-chip/25
+   intricate-gearbox/25
+]
+category: crafting
+research: plastanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: plastanium/2

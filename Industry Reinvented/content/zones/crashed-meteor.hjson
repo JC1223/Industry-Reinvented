@@ -1,12 +1,12 @@
 name: Crashed Meteor
-description: The site of a meteor impact.  Contains meteoric iron.
+description: The main crash site of a large meteor. It brought a hightly saught after resource not commonly found on this planets surface.
 loadout: basicShard
 startingItems: [
    copper/900
    lead/600
    bronze/450
 ]
-conditionWave: 20
+conditionWave: 30
 launchPeriod: 10
 requirements: [
    {
@@ -16,16 +16,15 @@ requirements: [
    }
    {
       type: Unlock
-      block: blast-furnace
+      block: t1-gearbox-assembler
    }
-   
 ]
 resources: [
-copper
-lead
-tin
-coal
-sand
-scrap
-iron
+   copper
+   lead
+   tin
+   coal
+   sand
+   scrap
+   iron
 ]

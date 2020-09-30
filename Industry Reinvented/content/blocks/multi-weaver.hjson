@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Multi Weaver
+description: An upgraded version of the phase weaver. Employs water and more power to process sand, scrap, and thorium quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 60
+consumes: {
+   power: 6.75
+   items: {
+      items: [
+         sand/10
+         scrap/2
+         thorium/6
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.25
+   }
+}
+requirements: [
+   steel/200
+   lead-plating/75
+   thorium/120
+   computing-chip/65
+   complex-gearbox/75
+]
+category: crafting
+research: phase-weaver
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: phase-fabric/2

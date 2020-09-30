@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Complex Multi Assembler
+description: An upgraded version of the complex gearbox assembler. Employs water and more power to process gears and plating quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 30
+consumes: {
+   power: 2.5
+   items: {
+      items: [
+         intricate-gearbox/2
+         steel-gear/5
+         steel-plating/2
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.2
+   }
+}
+requirements: [
+   steel/450
+   steel-plating/275
+   steel-tubing/150
+   metaglass/190
+   computing-chip/75
+   complex-gearbox/45
+]
+category: crafting
+research: t3-gearbox-assembler
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: complex-gearbox/2

@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Multi Mixer
+description: An upgraded version of the pyratite mixer. Employs water and more power to process sand, coal, and lead quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+   power: 0.4
+   items: {
+      items: [
+         sand/5
+         lead/5
+         coal/2
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.1
+   }
+}
+requirements: [
+   bronze/50
+   titanium/50
+   electrical-component/10
+   simple-gearbox/50
+]
+category: crafting
+research: pyratite-mixer
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: pyratite/3

@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Multi Bronze Smelter
+description: An upgraded version of the bronze smelter. Employs water and more power to process copper and tin quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+   power: 1
+   items: {
+      items: [
+         copper/4
+         tin/2
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.125
+   }
+}
+requirements: [
+   bronze/50
+   lead-plating/50
+   copper/150
+   electrical-component/25
+   simple-gearbox/15
+]
+category: crafting
+research: bronze-smelter
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: bronze/6

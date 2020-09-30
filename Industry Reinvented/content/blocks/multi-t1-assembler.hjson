@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Simple Multi Assembler
+description: An upgraded version of the simple gearbox assembler. Employs water and more power to process gears and plating quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 30
+consumes: {
+   power: 2.5
+   items: {
+      items: [
+         bronze-gear/5
+         copper-plating/2
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.2
+   }
+}
+requirements: [
+   bronze/150
+   metaglass/100
+   graphite/70
+   computing-chip/30
+   intricate-gearbox/25
+]
+category: crafting
+research: t1-gearbox-assembler
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: simple-gearbox/2

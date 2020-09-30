@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Multi Crafter
+description: An upgraded version of the electrical component crafter. Employs water and more power to process copper quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 45
+consumes: {
+   power: 2.75
+   items: {
+      items: [
+         copper/6
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.2
+   }
+}
+requirements: [
+   steel/75
+   bronze-plating/50
+   graphite/120
+   computing-chip/20
+   intricate-gearbox/15
+]
+category: crafting
+research: t1-electrical-crafter
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: electrical-component/2

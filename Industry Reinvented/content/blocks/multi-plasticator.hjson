@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Multi Alloy Smelter
+description: An upgraded version of the plasticator. Employs much more water and more power to process copper, lead, titanium, and silicon quickly and efficiently.
+size: 4
+health: 320
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 45
+updateEffect: smeltsmoke
+consumes: {
+   power: 3.2
+   items: {
+      items: [
+         tin/7
+         plastanium/2
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.37
+   }
+}
+requirements: [
+   titanium-plating/75
+   plastanium/150
+   steel-tubing/40
+   computing-chip/55
+   complex-gearbox/25
+]
+category: crafting
+research: plasticator
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: fireproof-plastic/6

@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Intricate Multi Assembler
+description: An upgraded version of the intricate gearbox assembler. Employs water and more power to process gears and plating quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 30
+consumes: {
+   power: 2.5
+   items: {
+      items: [
+         simple-gearbox/2
+         iron-gear/5
+         titanium-plating/2
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.2
+   }
+}
+requirements: [
+   steel/250
+   metaglass/130
+   titanium/85
+   computing-chip/35
+   intricate-gearbox/40
+]
+category: crafting
+research: t2-gearbox-assembler
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: intricate-gearbox/2

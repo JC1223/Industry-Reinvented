@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Multi Furnace
+description: An upgraded version of the blast furnace. Employs water and more power to process iron and coal quickly and efficiently.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquid: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+   power: 1.75
+   items: {
+      items: [
+         iron/3
+         coal/2
+      ]
+   }
+   liquid: {
+      liquid: water
+      amount: 0.15
+   }
+}
+requirements: [
+   steel/50
+   bronze-plating/75
+   graphite/50
+   electrical-component/35
+   simple-gearbox/20
+]
+category: crafting
+research: blast-furnace
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: steel/4
