@@ -1,22 +1,22 @@
 type: ItemTurret
 name: Blunderbuss
-desc: A small turret that fires multiple projectiles over medium-low ranges.
+desc: A small turret that fires multiple projectiles over low ranges.
 health: 200
 size: 1
 ammoPerShot: 4
 rotateSpeed: 5
-inaccuracy: 10
+inaccuracy: 15
 shots: 10
-spread: 5
+spread: 9
 reload: 60
-range: 80
+range: 65
 targetAir: true
 targetGround: true
 maxAmmo: 12
 ammoUseEffect: shellEjectMedium
-recoil: 2
+recoil: 4
 restitution: 0.1
-shootCone: 4
+shootCone: 6
 ammo: {
    scrap: {
       lifetime: 20
@@ -64,6 +64,7 @@ ammo: {
 requirements: [
    copper/45
    lead/15
+   bronze/15
 ]
 category: turret
 research: duo
