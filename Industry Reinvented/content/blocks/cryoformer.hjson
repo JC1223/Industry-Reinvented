@@ -25,7 +25,7 @@ requirements: [
    steel-tubing/35
 ]
 category: crafting
-research: cryofluidmixer
+research: cryofluid-mixer
 idleSound: respawning
 idleSoundVolume: 0.01
 outputItem: superconductor/1
