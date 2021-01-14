@@ -8,7 +8,7 @@ rotateSpeed: 5
 inaccuracy: 15
 shots: 10
 spread: 9
-reload: 60
+reloadTime: 60
 range: 65
 targetAir: true
 targetGround: true
@@ -17,44 +17,44 @@ ammoUseEffect: shellEjectMedium
 recoil: 4
 restitution: 0.1
 shootCone: 6
-ammo: {
+ammoTypes: {
    scrap: {
       lifetime: 20
       speed: 4.0
 	  damage: 5
-	  bulletWidth: 4
-	  bulletHeight: 6
+	  width: 4
+	  height: 6
 	  knockback: 3
    }
    copper: {
       lifetime: 16
 	  speed: 5.0
 	  damage: 4
-	  bulletWidth: 4
-	  bulletHeight: 6
+	  width: 4
+	  height: 6
 	  knockback: 2
    }
    lead: {
       lifetime: 20
       speed: 4.0
 	  damage: 3
-	  bulletWidth: 4
-	  bulletHeight: 6
+	  width: 4
+	  height: 6
 	  knockback: 5
    }
    tin: {
       lifetime: 14
       speed: 6.0
 	  damage: 2
-	  bulletWidth: 4
-	  bulletHeight: 6
+	  width: 4
+	  height: 6
 	  knockback: 1
 	  fragBullets: 7
 	  fragBullet: {
 	     lifetime: 5
 	     damage: 1
-	     bulletWidth: 2
-	     bulletHeight: 3
+	     width: 2
+	     height: 3
 	     knockback: 1
 		 pierce: true
 		 keepVelocity: true

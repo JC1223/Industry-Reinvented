@@ -6,7 +6,7 @@ size: 3
 ammoPerShot: 1.0
 rotateSpeed: 5
 inaccuracy: 5
-reload: 2
+reloadTime: 2
 range: 180
 targetAir: true
 targetGround: true
@@ -15,7 +15,7 @@ recoilAmount: 1
 shootCone: 30
 shootSound: splash	
 hasLiquids: true
-ammo: {
+ammoTypes: {
    water: {
       type: LiquidBulletType
       liquid: water

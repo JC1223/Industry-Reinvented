@@ -6,18 +6,18 @@ size: 2
 ammoPerShot: 1.0
 rotateSpeed: 5
 inaccuracy: 5
-reload: 40
+reloadTime: 40
 range: 160
 targetAir: true
 targetGround: true
 maxAmmo: 30	
-ammo: {
+ammoTypes: {
    bronze: {
       speed: 6.0
       reloadMultiplier: 1.0
       damage: 5
-      bulletWidth: 7
-      bulletHeight: 21
+      width: 7
+      height: 21
       shootEffect: shootBigSmoke
       smokeEffect: shootSmallFlame
       ammoMultiplier: 2
@@ -30,8 +30,8 @@ ammo: {
       speed: 6.5
       reloadMultiplier: 1.2
       damage: 13
-      bulletWidth: 9
-      bulletHeight: 23
+      width: 9
+      height: 23
       shootEffect: shootBigSmoke
       smokeEffect: shootSmallFlame
       ammoMultiplier: 4
@@ -44,8 +44,8 @@ ammo: {
       speed: 6.0
       reloadMultiplier: 1.0
       damage: 6
-      bulletWidth: 7
-      bulletHeight: 21
+      width: 7
+      height: 21
       despawnEffect: flakExplosion
       shootEffect: shootBigSmoke
       smokeEffect: shootSmallFlame
@@ -58,8 +58,8 @@ ammo: {
          speed: 2.0
          lifetime: 4
          damage: 3
-         bulletWidth: 4
-         bulletHeight: 4
+         width: 4
+         height: 4
          keepVelocity: false
          knockback: 0.1
          drag: 0.1
@@ -73,8 +73,8 @@ ammo: {
       speed: 5.75
       reloadMultiplier: 1.8
       damage: 5
-      bulletWidth: 11
-      bulletHeight: 25
+      width: 11
+      height: 25
       despawnEffect: flakExplosion
       shootEffect: shootBigSmoke
       smokeEffect: shootSmallFlame
@@ -87,8 +87,8 @@ ammo: {
          speed: 2.0
          lifetime: 4
          damage: 1
-         bulletWidth: 4
-         bulletHeight: 4
+         width: 4
+         height: 4
          keepVelocity: false
          knockback: 0.1
          drag: 0.1

@@ -1,9 +1,9 @@
-type: ChargeTurret
+type: PowerTurret
 name: Kunai
 desc: A long-range weak laser turret.
 health: 600
 size: 2
-reload: 1
+reloadTime: 1
 rotatespeed: 10
 range: 300
 targetAir: true
@@ -20,8 +20,8 @@ shootType: {
    trailEffect: artilleryTrail
    speed: 20
    damage: 1
-   bulletHeight: 10
-   bulletWidth:2
+   height: 10
+   width:2
    hitEffect: hitLaser
    shootEffect: smelt
    pierce: false

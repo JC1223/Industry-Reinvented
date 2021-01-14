@@ -1,9 +1,9 @@
-type: ChargeTurret
+type: PowerTurret
 name: Halberd
 desc: A medium-range laser turret.
 health: 600
 size: 2
-reload: 60
+reloadTime: 60
 rotatespeed: 10
 range: 160
 targetAir: true
@@ -21,7 +21,7 @@ shootType: {
    speed: 10
    lifetime: 16
    damage: 40
-   bulletHeight: 20
+   height: 20
    hitEffect: hitLaser
    shootEffect: smelt
    pierce: true
