@@ -9,7 +9,7 @@ range: 80
 targetAir: true
 targetGround: true
 powerUse: 3
-shootType: lightning
+shootType: damageLightning
 	
 requirements: [
   thorium/50
