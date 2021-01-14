@@ -1,0 +1,35 @@
+type: LaserTurret
+name: Solaris
+desc: A laser turret.
+health: 600
+size: 2
+reloadTime: 10
+rotatespeed: 10
+range: 160
+targetAir: true
+targetGround: true
+powerUse: 3
+shootDuration: 100
+firingMoveFract: 0.5
+shootSound: laserbig
+loopSound: beam
+loopSoundVolume: 2
+
+shootType: {
+   type: ContinuousLaserBulletType
+   length: 160
+   hitEffect: hitMeltdown
+   drawSize: 10
+   incendChance: 0.6
+   incendSpread: 3
+   incentAmount: 2
+   damage: 30
+}
+requirements: [
+   thorium/100
+   computing-chip/50
+   lead-plating/85
+   silicon/125
+]
+category: turret
+research: lancer
