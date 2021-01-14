@@ -1,6 +1,6 @@
 type: Router
 name: Instant Router
-description: Accepts items, then outputs them to up to 3 other directions equally. Instantly moves items through itself.
+description: Accepts items, then outputs them to up to 3 other directions equally. Instantly moves items through itself. It's not really useful anymore but we just like how it looks.
 size: 1
 health: 120
 hasItems: true

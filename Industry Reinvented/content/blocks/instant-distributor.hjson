@@ -1,6 +1,6 @@
 type: Router
 name: Instant Distributor
-description: An advanced instant router. Splits items to up to 7 other directions equally.
+description: An advanced instant router. Splits items to up to 7 other directions equally. It's not really useful anymore but we just like how it looks.
 size: 2
 health: 480
 hasItems: true
