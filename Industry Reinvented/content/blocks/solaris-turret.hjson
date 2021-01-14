@@ -3,7 +3,7 @@ name: Solaris
 desc: A laser turret.
 health: 600
 size: 2
-reloadTime: 60
+reloadTime: 10
 rotatespeed: 10
 range: 160
 targetAir: true
@@ -11,9 +11,9 @@ targetGround: true
 powerUse: 3
 shootDuration: 100
 firingMoveFract: 0.5
-shootSound = Sounds.laserbig;
-loopSound = Sounds.beam;
-loopSoundVolume = 2f;
+shootSound: laserbig
+loopSound: beam
+loopSoundVolume: 2
 
 shootType: {
    type: ContinuousLaserBulletType
@@ -23,6 +23,7 @@ shootType: {
    incendChance: 0.6
    incendSpread: 3
    incentAmount: 2
+   damage: 30
 }
 requirements: [
    thorium/100
