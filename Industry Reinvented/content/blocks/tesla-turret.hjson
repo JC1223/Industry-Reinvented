@@ -3,13 +3,24 @@ name: Tesla
 desc: A medium-range lightning turret.
 health: 800
 size: 2
-reloadTime: 120
+reloadTime: 20
 rotatespeed: 5
 range: 80
 targetAir: true
 targetGround: true
-powerUse: 3
-shootType: damageLightning
+powerUse: 6
+shootEffect: lightningShoot
+shootType: {
+	type: LightningBulletType
+	lightningLength: 40
+	lightningLengthRand: 10
+	
+	drawSize: 10
+	pierce: True
+	damage: 20
+	
+	lightningCone: 10
+	}
 	
 requirements: [
   thorium/50
