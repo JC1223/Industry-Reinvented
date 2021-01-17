@@ -1,0 +1,90 @@
+type: ItemTurret
+name: Bolt
+desc: A long range railgun. Shoots a charged slug at enemies.
+health: 800
+size: 2
+ammoPerShot: 1.0
+rotateSpeed: 5
+inaccuracy: 0
+reloadTime: 400
+range: 400
+powerUse: 5
+targetAir: true
+targetGround: true
+maxAmmo: 10	
+ammoTypes: {
+   steel: {
+	  type: BasicBulletType
+      speed: 16
+      reloadMultiplier: 1.2
+      damage: 48
+	  buildingDamageMultiplier: 0.1
+	  pierceBuilding: true
+      width: 9
+      height: 23
+      shootEffect: shootBigSmoke
+      smokeEffect: shootSmallFlame
+      ammoMultiplier: 1
+      knockback: 10
+      backColor: 909020
+      frontColor: 909020
+      pierce: true
+	  status: shocked
+	  fragBullets: 7
+	  fragBullet: {
+		 type: LightningBulletType
+	     lightningLength: 5
+		 lightningLengthRand: 5
+		 drawSize: 10
+		 pierce: True
+		 damage: 5
+		 lightningCone: 10
+		 pierce: true
+		 keepVelocity: true
+		 status: shocked
+       }
+	  
+	  
+	  
+   }
+   iron: {
+	  type: BasicBulletType
+      speed: 24
+      reloadMultiplier: 1.2
+      damage: 36
+	  buildingDamageMultiplier: 0.1
+	  pierceBuilding: true
+      width: 9
+      height: 23
+      shootEffect: shootBigSmoke
+      smokeEffect: shootSmallFlame
+      ammoMultiplier: 1
+      knockback: 10
+      backColor: 909020
+      frontColor: 909020
+      pierce: true
+	  status: shocked
+	  fragBullets: 7
+	  fragBullet: {
+		 type: LightningBulletType
+	     lightningLength: 5
+		 lightningLengthRand: 5
+		 drawSize: 10
+		 pierce: True
+		 damage: 4
+		 lightningCone: 10
+		 pierce: true
+		 keepVelocity: true
+		 status: shocked
+       }
+   }
+   
+}
+
+requirements: [
+   simple-gearbox/5
+   lead-plating/15
+   bronze/45
+]
+category: turret
+research: scatter
