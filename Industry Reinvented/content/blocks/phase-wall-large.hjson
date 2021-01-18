@@ -1,4 +1,4 @@
-maxDamageDeflect: 20
+chanceDeflect: 15
 requirements: [
    phase-fabric/12
    phase-weave/3
