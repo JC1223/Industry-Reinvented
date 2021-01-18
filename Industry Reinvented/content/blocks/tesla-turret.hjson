@@ -5,7 +5,7 @@ health: 800
 size: 2
 reloadTime: 20
 rotatespeed: 5
-range: 80
+range: 108
 targetAir: true
 targetGround: true
 powerUse: 6

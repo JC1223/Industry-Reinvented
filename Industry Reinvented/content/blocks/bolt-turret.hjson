@@ -11,6 +11,7 @@ range: 400
 powerUse: 5
 targetAir: true
 targetGround: true
+consumesPower: true
 maxAmmo: 10	
 ammoTypes: {
    steel: {

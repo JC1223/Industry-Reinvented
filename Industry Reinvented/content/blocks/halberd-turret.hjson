@@ -5,10 +5,10 @@ health: 600
 size: 2
 reloadTime: 60
 rotatespeed: 10
-range: 160
+range: 240
 targetAir: true
 targetGround: true
-powerUse: 3
+powerUse: 7
 chargeTime: 60
 chargeEffects: 10
 chargeMaxDelay: 30
@@ -20,7 +20,7 @@ shootType: {
    trailEffect: artilleryTrail
    speed: 10
    lifetime: 16
-   damage: 40
+   damage: 120
    height: 20
    hitEffect: hitLaser
    shootEffect: smelt

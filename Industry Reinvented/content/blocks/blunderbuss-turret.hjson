@@ -10,7 +10,7 @@ shots: 10
 spread: 9
 reloadTime: 60
 range: 65
-targetAir: true
+targetAir: false
 targetGround: true
 maxAmmo: 12
 ammoUseEffect: casing3
