@@ -1,0 +1,5 @@
+type: resource
+name: Silica
+description: A large amount of silica particles.
+cost: 1
+color: 9cbed9

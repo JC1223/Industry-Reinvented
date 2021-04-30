@@ -1,0 +1,5 @@
+type: material
+name: Aerogel
+description: An extremely good thermal insulator. Is basically temperature-proof.
+cost: 1
+color: 95d0ee

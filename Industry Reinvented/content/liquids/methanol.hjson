@@ -1,0 +1,9 @@
+type: liquid
+name: Methanol
+description: A highly flamable liquid.
+temprature: 0.5
+viscosity: 0.3
+flammability: 1.4
+explosiveness: 0.4
+heatCapacity: 0.3
+color: d2e6f0

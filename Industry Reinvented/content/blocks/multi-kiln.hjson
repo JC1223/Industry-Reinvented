@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Multi Kiln
-description: An upgraded version of the kiln. Employs water and more power to process sand and lead quickly and efficiently.
+description: An upgraded version of the kiln. Employs water and more power to process silica and lead quickly and efficiently.
 size: 3
 health: 60
 hasPower: true
@@ -12,8 +12,8 @@ consumes: {
    power: 0.8
    items: {
       items: [
-         sand/2
-         lead/2
+         silica/1
+         lead/7
       ]
    }
    liquid: {
@@ -22,14 +22,14 @@ consumes: {
    }
 }
 requirements: [
-   bronze/50
-   lead/50
-   graphite/50
-   electrical-component/20
-   simple-gearbox/15
+   titanium/50
+   bronze/120
+   graphite/120
+   electrical-component/150
+   intricate-gearbox/35
 ]
 category: crafting
-research: kiln
+research: silica-sieve
 idleSound: respawning
 idleSoundVolume: 0.01
-outputItem: metaglass/3
+outputItem: metaglass/10

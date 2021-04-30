@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Pressure Cell
+description: Makes aerogel using supercritical fluids.
+size: 3
+health: 60
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 90
+consumes:{
+   power: 2.3
+   items: {
+      items: [
+         silica/1
+      ]
+   }
+   liquid: {
+      liquid: methanol
+      amount: 0.4
+   }
+}
+requirements: [
+   fireproof-plastic/200
+   steel-plating/90
+   steel-tubing/75
+]
+category: crafting
+research: multi-plasticator
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: aerogel/1
+
+

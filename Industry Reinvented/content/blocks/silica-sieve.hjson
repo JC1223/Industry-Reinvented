@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Silica Sieve
+description: Sifts out silica particles from large amounts of sand.
+size: 2
+health: 60
+hasPower: true
+hasItems: true
+craftTime: 20
+consumes:{
+   power: 1.2
+   items: {
+      items: [
+         sand/10
+      ]
+   }
+}
+requirements: [
+   steel/200
+   titanium/185
+   titanium-tubing/60
+   complex-gearbox/25
+]
+category: crafting
+research: separator
+idleSound: respawning
+idleSoundVolume: 0.01
+outputItem: silica/1
+
+

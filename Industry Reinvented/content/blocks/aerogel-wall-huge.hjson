@@ -1,0 +1,13 @@
+type: Wall
+name: Huge Aerogel Wall
+description: An expensive yet sturdy, completely fireproof wall that does not block electricity. Spans even more tiles.
+size: 3
+health: 7388
+flamability: 0
+update: true
+requirements: [
+   aerogel/30
+   steel-plating/15
+]
+category: defense
+research: aerogel-wall-large

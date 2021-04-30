@@ -1,0 +1,13 @@
+type: ArmoredConveyor
+name: Armored Aerogel Conveyor
+description: Moves items at the same speed as aerogel conveyors, but possesses more armor. Does not accept inputs from the sides from anything but other conveyor belts.
+health: 215
+requirements: [
+  thorium/1
+  aerogel/1
+  steel/1
+]
+category: distribution
+speed: 0.17142858
+displayedSpeed: 24
+research: aerogel-conveyor

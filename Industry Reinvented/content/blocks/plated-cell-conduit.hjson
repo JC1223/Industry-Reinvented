@@ -1,0 +1,13 @@
+type: ArmoredConduit
+name: Plated Cell Conduit
+description: Moves liquids at the same rate as ring conduits, but possesses more armor. Does not accept fluids from the sides by anything other than conduits. Leaks less.
+health: 275
+requirements: [
+   aerogel/1
+   thorium/2
+   steel-tubing/1
+]
+liquidCapacity: 22
+liquidPressure: 1.05
+category: liquid
+research: cell-conduit

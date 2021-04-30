@@ -1,0 +1,13 @@
+type: Conveyor
+name: Aerogel Conveyor
+description: Fireproof item transport block. Moves items faster than fireproof conveyors.
+health: 100
+requirements: [
+  titanium/1
+  steel/1
+  aerogel/1
+]
+category: distribution
+speed: 0.17142858
+displayedSpeed: 24
+research: fireproof-conveyor

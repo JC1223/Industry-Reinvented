@@ -1,6 +1,6 @@
 type: GenericSmelter
-name: Multi Alloy Smelter
-description: An upgraded version of the plasticator. Employs much more water and more power to process copper, lead, titanium, and silicon quickly and efficiently.
+name: Multi Plasticator
+description: An upgraded version of the plasticator. Employs much more water and more power to process tin and plastanium quickly and efficiently.
 size: 4
 health: 320
 hasPower: true
